@@ -1,1 +1,52 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Web site created using create-react-app"/><link rel="apple-touch-icon" href="/logo192.png"/><link rel="manifest" href="/manifest.json"/><title>React App</title><script defer="defer" src="/static/js/main.0be41f89.js"></script><link href="/static/css/main.4801b8f3.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div></body><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script></html>
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>My Game</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimum-scale=1, width=device-width, height=device-height">
+<link href="style.css" rel="stylesheet"></head>
+
+<body>
+    <div id="rpg"></div>
+    
+    <style>
+        body,
+        html {
+            height: 100%;
+            overflow: hidden;
+        }
+
+        body {
+            margin: 0;
+            background-color: black; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #rpg {
+            position: relative;
+            
+        }
+
+        @media (min-width: 800px) {
+            #rpg {
+                width: 816px;
+                height: 624px;
+            }
+        }
+
+        @media (max-width: 800px) {
+            #rpg {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+            }
+        }
+    </style>
+<script src="bundle.js"></script></body>
+
+</html>
